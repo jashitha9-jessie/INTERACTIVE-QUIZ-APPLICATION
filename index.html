@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Master Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Welcome Screen -->
+    <div class="welcome-screen" id="welcomeScreen">
+
+        <div class="card">
+
+            <h1>Quiz Master Pro</h1>
+
+            <p class="subtitle">
+                Test your Front-End Web Development Skills
+            </p>
+
+            <div class="info-box">
+                <p>📚 Total Questions: 15</p>
+                <p>⏱ Estimated Time: 5 Minutes</p>
+                <p>🏆 Instant Results & Feedback</p>
+            </div>
+
+            <input
+                type="text"
+                id="username"
+                placeholder="Enter Your Name">
+
+            <button id="startBtn">
+                Start Quiz
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- Quiz Screen -->
+    <div class="quiz-screen" id="quizScreen">
+
+        <div class="card">
+
+            <h1>Frontend Development Quiz</h1>
+
+            <div class="progress-container">
+                <div id="progress-bar"></div>
+            </div>
+
+            <div class="question-count">
+                Question
+                <span id="current-question">1</span>
+                of
+                <span id="total-questions">15</span>
+            </div>
+
+            <h2 id="question"></h2>
+
+            <div id="answer-buttons"></div>
+
+            <p id="feedback"></p>
+
+            <button id="next-btn">
+                Next Question
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- Result Screen -->
+    <div class="result-screen" id="resultScreen">
+
+        <div class="card">
+
+            <h1>Quiz Completed 🎉</h1>
+
+            <h2 id="resultName"></h2>
+
+            <div class="result-box">
+
+                <h3 id="finalScore"></h3>
+
+                <h3 id="percentage"></h3>
+
+                <p id="performanceMessage"></p>
+
+            </div>
+
+            <button id="restartBtn">
+                Restart Quiz
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

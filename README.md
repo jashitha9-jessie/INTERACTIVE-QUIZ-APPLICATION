@@ -1,6 +1,6 @@
 # INTERACTIVE-QUIZ-APPLICATION
 
-COMPANY: CODETEC IT SOLUTIONS
+COMPANY: CODETECH IT SOLUTIONS
 
 NAME: KANTUBUKTHA JASHITHA
 
@@ -44,3 +44,9 @@ Overall, the Interactive Quiz Application successfully demonstrates modern front
 - GitHub
 
 ## OUTPUT
+
+<img width="1894" height="917" alt="Image" src="https://github.com/user-attachments/assets/d568ae46-1f36-4808-8169-ea4cbd7a9c0b" />
+
+<img width="1881" height="857" alt="Image" src="https://github.com/user-attachments/assets/2d5b1e99-ef3a-4df7-872d-56749c45837e" />
+
+<img width="1919" height="933" alt="Image" src="https://github.com/user-attachments/assets/b5e2acf3-a92e-48cb-8238-51218dc36447" />
